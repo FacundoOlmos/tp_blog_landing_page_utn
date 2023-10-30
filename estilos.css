@@ -308,6 +308,14 @@ header ul li a {
   position: absolute;
   /* align-content: center; */
 }
+.diseñadorWeb .redesDiseñador i {
+  padding: 4px;
+  transition: color 0.3s; 
+}
+
+.diseñadorWeb .redesDiseñador i:hover {
+  color: whitesmoke; 
+}
 /*LINKS*/
 
 .links {
@@ -365,7 +373,7 @@ header ul li a {
   background-color: grey;
   left: 0;
   justify-content: space-around;
-  align-items: center; /* Centra verticalmente el contenido */
+  align-items: center; 
 }
 
 .botonesLink .btnIzquierda {
@@ -423,6 +431,15 @@ footer .sub-mail h2 {
   margin-bottom: 20px;
 }
 footer .sub-mail button {
+  cursor: pointer;
+  font-weight: bolder;
+  padding: 5px;
+  border-radius: 10px;
   color: #272727;
   background-color: #666666;
+  transition: background-color 0.3s; 
+}
+
+footer .sub-mail button:hover {
+  background-color: #444;
 }
