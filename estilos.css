@@ -310,11 +310,11 @@ header ul li a {
 }
 .diseñadorWeb .redesDiseñador i {
   padding: 4px;
-  transition: color 0.3s; 
+  transition: color 0.3s;
 }
 
 .diseñadorWeb .redesDiseñador i:hover {
-  color: whitesmoke; 
+  color: whitesmoke;
 }
 /*LINKS*/
 
@@ -346,19 +346,19 @@ header ul li a {
 .links .link2 img {
   width: 20%;
 }
-.links .loremLink p{
+.links .loremLink p {
   letter-spacing: 4px;
   line-height: 1.5em;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.links .link1 p{
+.links .link1 p {
   letter-spacing: 4px;
   line-height: 1.5em;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.links .link2 p{
+.links .link2 p {
   letter-spacing: 4px;
   line-height: 1.5em;
   padding-top: 10px;
@@ -373,7 +373,7 @@ header ul li a {
   background-color: grey;
   left: 0;
   justify-content: space-around;
-  align-items: center; 
+  align-items: center;
 }
 
 .botonesLink .btnIzquierda {
@@ -437,9 +437,54 @@ footer .sub-mail button {
   border-radius: 10px;
   color: #272727;
   background-color: #666666;
-  transition: background-color 0.3s; 
+  transition: background-color 0.3s;
 }
 
 footer .sub-mail button:hover {
   background-color: #444;
 }
+
+/*MEDIAS QUERRYS 
+
+@media (max-width: 768px) {
+  section {
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 40px;
+  }
+
+  .textosec1 .contenedorSec1A h1 {
+    padding-left: 0; 
+    text-align: center; /
+  }
+
+  .textosec1 .contenedorSec1B {
+    max-width: 100%; 
+  }
+
+  .hero {
+    margin-left: 0; 
+  }
+
+  .botonesHero {
+    right: 0;
+    bottom: 0;
+  }
+
+  
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  section {
+    padding: 60px;
+  }
+}
+
+@media (min-width: 1025px) {
+  section {
+    padding: 100px;
+  }
+}
+*/
